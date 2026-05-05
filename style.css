@@ -98,3 +98,20 @@ landing-stat-value {
 .landing-showcase {
   position: relative;
 }
+
+.showcase-card {
+  padding: 2rem;
+}
+
+.showcase-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-dark);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.showcase-list {
+  display: grid;
+  gap: 0.85rem;
+}
