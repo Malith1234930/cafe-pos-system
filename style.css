@@ -48,5 +48,22 @@ body {
     linear-gradient(180deg, rgba(255, 250, 244, 0.96), rgba(248, 239, 229, 0.96));
 }
 
+.landing-brand {
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.landing-eyebrow {
+  background: rgba(93, 59, 38, 0.12);
+  color: var(--accent-dark);
+}
+
+.landing-title {
+  font-size: clamp(2.5rem, 6vw, 4.8rem);
+  line-height: 1.05;
+  font-weight: 800;
+  max-width: 10ch;
+}
 
 
