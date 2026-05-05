@@ -145,3 +145,27 @@ landing-stat-value {
   font-size: 0.75rem;
   text-transform: uppercase;
 }
+
+.brand-badge {
+  width: 52px;
+  height: 52px;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+  color: #fff;
+  font-weight: 800;
+}
+
+.demo-credentials {
+  background: #f8eee4;
+  border: 1px solid #ddc0a5;
+  border-radius: 18px;
+  padding: 1rem 1.1rem;
+  color: var(--accent-dark);
+}
+
+.dashboard-nav {
+  background: rgba(47, 36, 31, 0.96);
+  backdrop-filter: blur(18px);
+}
