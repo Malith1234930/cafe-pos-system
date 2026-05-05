@@ -115,3 +115,33 @@ landing-stat-value {
   display: grid;
   gap: 0.85rem;
 }
+
+
+.showcase-list div,
+.beans-note {
+  padding: 0.95rem 1rem;
+}
+
+.beans-note {
+  color: var(--accent-dark);
+  background: rgba(255, 244, 230, 0.9);
+}
+
+.auth-hero {
+  background:
+    linear-gradient(160deg, rgba(47, 36, 31, 0.95), rgba(93, 59, 38, 0.9)),
+    #2f241f;
+  color: #fff;
+  min-height: 100%;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  background: rgba(255, 255, 255, 0.16);
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
