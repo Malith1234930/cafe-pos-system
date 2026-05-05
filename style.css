@@ -20,3 +20,33 @@ body {
   min-height: 100vh;
 }
 
+.landing-view,
+.auth-view,
+.dashboard-view {
+  min-height: 100vh;
+}
+
+.landing-panel,
+.auth-card,
+.content-card,
+.hero-panel {
+  border-radius: 28px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+
+.landing-view {
+  padding: 2rem 0;
+}
+
+.landing-panel {
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background:
+    radial-gradient(circle at top right, rgba(176, 127, 89, 0.18), transparent 24%),
+    linear-gradient(180deg, rgba(255, 250, 244, 0.96), rgba(248, 239, 229, 0.96));
+}
+
+
+
