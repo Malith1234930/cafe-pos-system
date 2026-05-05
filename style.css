@@ -84,4 +84,17 @@ body {
   padding: 1rem;
 }
 
+landing-stat-value {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
 
+.landing-stat-label {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+.landing-showcase {
+  position: relative;
+}
