@@ -66,4 +66,22 @@ body {
   max-width: 10ch;
 }
 
+.landing-copy {
+  max-width: 58ch;
+  font-size: 1.08rem;
+  color: var(--muted);
+}
+
+.landing-stat,
+.showcase-card,
+.beans-note {
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(93, 59, 38, 0.1);
+}
+
+.landing-stat {
+  padding: 1rem;
+}
+
 
