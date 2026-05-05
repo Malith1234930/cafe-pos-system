@@ -169,3 +169,36 @@ landing-stat-value {
   background: rgba(47, 36, 31, 0.96);
   backdrop-filter: blur(18px);
 }
+
+.hero-panel {
+  background:
+    linear-gradient(135deg, rgba(255, 251, 246, 0.9), rgba(246, 234, 219, 0.95)),
+    var(--panel);
+}
+
+.metric-card,
+.total-box {
+  border-radius: 22px;
+  padding: 1.1rem;
+  background: #fff;
+  border: 1px solid var(--line);
+}
+
+.metric-label,
+.total-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.metric-value,
+.total-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-top: 0.3rem;
+}
+
+.content-card {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
